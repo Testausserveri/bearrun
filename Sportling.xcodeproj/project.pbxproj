@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C904E6D42AFF843F0025B9EF /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C12AFF843F0025B9EF /* Poppins-ExtraLight.ttf */; };
+		C904E6D52AFF843F0025B9EF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C22AFF843F0025B9EF /* Poppins-Bold.ttf */; };
+		C904E6D62AFF843F0025B9EF /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C32AFF843F0025B9EF /* Poppins-MediumItalic.ttf */; };
+		C904E6D72AFF843F0025B9EF /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C42AFF843F0025B9EF /* Poppins-ExtraLightItalic.ttf */; };
+		C904E6D82AFF843F0025B9EF /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C52AFF843F0025B9EF /* Poppins-Italic.ttf */; };
+		C904E6D92AFF843F0025B9EF /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C62AFF843F0025B9EF /* Poppins-Black.ttf */; };
+		C904E6DA2AFF843F0025B9EF /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C72AFF843F0025B9EF /* OFL.txt */; };
+		C904E6DB2AFF843F0025B9EF /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C82AFF843F0025B9EF /* Poppins-ExtraBold.ttf */; };
+		C904E6DC2AFF843F0025B9EF /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6C92AFF843F0025B9EF /* Poppins-SemiBold.ttf */; };
+		C904E6DD2AFF843F0025B9EF /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CA2AFF843F0025B9EF /* Poppins-Light.ttf */; };
+		C904E6DE2AFF843F0025B9EF /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CB2AFF843F0025B9EF /* Poppins-LightItalic.ttf */; };
+		C904E6DF2AFF843F0025B9EF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CC2AFF843F0025B9EF /* Poppins-Medium.ttf */; };
+		C904E6E02AFF843F0025B9EF /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CD2AFF843F0025B9EF /* Poppins-ExtraBoldItalic.ttf */; };
+		C904E6E12AFF843F0025B9EF /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CE2AFF843F0025B9EF /* Poppins-SemiBoldItalic.ttf */; };
+		C904E6E22AFF843F0025B9EF /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6CF2AFF843F0025B9EF /* Poppins-BlackItalic.ttf */; };
+		C904E6E32AFF843F0025B9EF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6D02AFF843F0025B9EF /* Poppins-Thin.ttf */; };
+		C904E6E42AFF843F0025B9EF /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6D12AFF843F0025B9EF /* Poppins-BoldItalic.ttf */; };
+		C904E6E52AFF843F0025B9EF /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6D22AFF843F0025B9EF /* Poppins-ThinItalic.ttf */; };
+		C904E6E62AFF843F0025B9EF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C904E6D32AFF843F0025B9EF /* Poppins-Regular.ttf */; };
+		C904E6E92AFF84650025B9EF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6E82AFF84650025B9EF /* Font.swift */; };
+		C904E6ED2AFF924B0025B9EF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6EC2AFF924B0025B9EF /* WelcomeView.swift */; };
+		C904E6EF2AFF96980025B9EF /* GIFPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6EE2AFF96980025B9EF /* GIFPlayer.swift */; };
+		C904E6F22AFF999A0025B9EF /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C904E6F12AFF999A0025B9EF /* Model3DView */; };
+		C904E6F42AFF9A9A0025B9EF /* karhu.glb in Resources */ = {isa = PBXBuildFile; fileRef = C904E6F32AFF99E80025B9EF /* karhu.glb */; };
+		C904E6F62AFFA1120025B9EF /* NameEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6F52AFFA1120025B9EF /* NameEnterView.swift */; };
+		C904E6F92AFFA59E0025B9EF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C904E6F82AFFA59E0025B9EF /* Alamofire */; };
+		C904E6FC2AFFA6100025B9EF /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6FB2AFFA6100025B9EF /* Api.swift */; };
+		C904E6FF2AFFA7030025B9EF /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E6FE2AFFA7030025B9EF /* RegisterResponse.swift */; };
+		C904E7012AFFA7430025B9EF /* Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7002AFFA7430025B9EF /* Callbacks.swift */; };
+		C904E7032AFFAC140025B9EF /* MeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7022AFFAC140025B9EF /* MeResponse.swift */; };
+		C904E7052AFFAEAC0025B9EF /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7042AFFAEAC0025B9EF /* HealthKit.swift */; };
+		C904E7082AFFB3850025B9EF /* UpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7072AFFB3850025B9EF /* UpdateResponse.swift */; };
+		C904E70A2AFFB5610025B9EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7092AFFB5610025B9EF /* User.swift */; };
+		C904E70C2AFFBB420025B9EF /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E70B2AFFBB420025B9EF /* LeaderboardView.swift */; };
+		C904E70F2AFFBBB10025B9EF /* UserBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E70E2AFFBBB10025B9EF /* UserBox.swift */; };
+		C904E7112AFFC25A0025B9EF /* InviteCodeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904E7102AFFC25A0025B9EF /* InviteCodeBox.swift */; };
+		C9EAAB952AFED99700F47A2E /* SportlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAAB942AFED99700F47A2E /* SportlingApp.swift */; };
+		C9EAAB972AFED99700F47A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAAB962AFED99700F47A2E /* ContentView.swift */; };
+		C9EAAB992AFED99900F47A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EAAB982AFED99900F47A2E /* Assets.xcassets */; };
+		C9EAAB9C2AFED99900F47A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EAAB9B2AFED99900F47A2E /* Preview Assets.xcassets */; };
+		C9EAABA62AFED99900F47A2E /* SportlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAABA52AFED99900F47A2E /* SportlingTests.swift */; };
+		C9EAABB02AFED99900F47A2E /* SportlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAABAF2AFED99900F47A2E /* SportlingUITests.swift */; };
+		C9EAABB22AFED99900F47A2E /* SportlingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAABB12AFED99900F47A2E /* SportlingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9EAABA22AFED99900F47A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9EAAB892AFED99700F47A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9EAAB902AFED99700F47A2E;
+			remoteInfo = Sportling;
+		};
+		C9EAABAC2AFED99900F47A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9EAAB892AFED99700F47A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9EAAB902AFED99700F47A2E;
+			remoteInfo = Sportling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C904E6C12AFF843F0025B9EF /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C904E6C22AFF843F0025B9EF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C904E6C32AFF843F0025B9EF /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C904E6C42AFF843F0025B9EF /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C904E6C52AFF843F0025B9EF /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C904E6C62AFF843F0025B9EF /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		C904E6C72AFF843F0025B9EF /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C904E6C82AFF843F0025B9EF /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C904E6C92AFF843F0025B9EF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C904E6CA2AFF843F0025B9EF /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		C904E6CB2AFF843F0025B9EF /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		C904E6CC2AFF843F0025B9EF /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C904E6CD2AFF843F0025B9EF /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C904E6CE2AFF843F0025B9EF /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C904E6CF2AFF843F0025B9EF /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C904E6D02AFF843F0025B9EF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		C904E6D12AFF843F0025B9EF /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C904E6D22AFF843F0025B9EF /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C904E6D32AFF843F0025B9EF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C904E6E82AFF84650025B9EF /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		C904E6EA2AFF848F0025B9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C904E6EC2AFF924B0025B9EF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C904E6EE2AFF96980025B9EF /* GIFPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFPlayer.swift; sourceTree = "<group>"; };
+		C904E6F32AFF99E80025B9EF /* karhu.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = karhu.glb; sourceTree = "<group>"; };
+		C904E6F52AFFA1120025B9EF /* NameEnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEnterView.swift; sourceTree = "<group>"; };
+		C904E6FB2AFFA6100025B9EF /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		C904E6FE2AFFA7030025B9EF /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		C904E7002AFFA7430025B9EF /* Callbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callbacks.swift; sourceTree = "<group>"; };
+		C904E7022AFFAC140025B9EF /* MeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeResponse.swift; sourceTree = "<group>"; };
+		C904E7042AFFAEAC0025B9EF /* HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		C904E7062AFFB0B40025B9EF /* Sportling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sportling.entitlements; sourceTree = "<group>"; };
+		C904E7072AFFB3850025B9EF /* UpdateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateResponse.swift; sourceTree = "<group>"; };
+		C904E7092AFFB5610025B9EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C904E70B2AFFBB420025B9EF /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		C904E70E2AFFBBB10025B9EF /* UserBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBox.swift; sourceTree = "<group>"; };
+		C904E7102AFFC25A0025B9EF /* InviteCodeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCodeBox.swift; sourceTree = "<group>"; };
+		C9EAAB912AFED99700F47A2E /* Sportling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EAAB942AFED99700F47A2E /* SportlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportlingApp.swift; sourceTree = "<group>"; };
+		C9EAAB962AFED99700F47A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9EAAB982AFED99900F47A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9EAAB9B2AFED99900F47A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9EAABA12AFED99900F47A2E /* SportlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EAABA52AFED99900F47A2E /* SportlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportlingTests.swift; sourceTree = "<group>"; };
+		C9EAABAB2AFED99900F47A2E /* SportlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EAABAF2AFED99900F47A2E /* SportlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportlingUITests.swift; sourceTree = "<group>"; };
+		C9EAABB12AFED99900F47A2E /* SportlingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportlingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9EAAB8E2AFED99700F47A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904E6F22AFF999A0025B9EF /* Model3DView in Frameworks */,
+				C904E6F92AFFA59E0025B9EF /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAAB9E2AFED99900F47A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAABA82AFED99900F47A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C904E6BF2AFF84200025B9EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C904E6C02AFF84260025B9EF /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C904E6C02AFF84260025B9EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C904E6C72AFF843F0025B9EF /* OFL.txt */,
+				C904E6C62AFF843F0025B9EF /* Poppins-Black.ttf */,
+				C904E6CF2AFF843F0025B9EF /* Poppins-BlackItalic.ttf */,
+				C904E6C22AFF843F0025B9EF /* Poppins-Bold.ttf */,
+				C904E6D12AFF843F0025B9EF /* Poppins-BoldItalic.ttf */,
+				C904E6C82AFF843F0025B9EF /* Poppins-ExtraBold.ttf */,
+				C904E6CD2AFF843F0025B9EF /* Poppins-ExtraBoldItalic.ttf */,
+				C904E6C12AFF843F0025B9EF /* Poppins-ExtraLight.ttf */,
+				C904E6C42AFF843F0025B9EF /* Poppins-ExtraLightItalic.ttf */,
+				C904E6C52AFF843F0025B9EF /* Poppins-Italic.ttf */,
+				C904E6CA2AFF843F0025B9EF /* Poppins-Light.ttf */,
+				C904E6CB2AFF843F0025B9EF /* Poppins-LightItalic.ttf */,
+				C904E6CC2AFF843F0025B9EF /* Poppins-Medium.ttf */,
+				C904E6C32AFF843F0025B9EF /* Poppins-MediumItalic.ttf */,
+				C904E6D32AFF843F0025B9EF /* Poppins-Regular.ttf */,
+				C904E6C92AFF843F0025B9EF /* Poppins-SemiBold.ttf */,
+				C904E6CE2AFF843F0025B9EF /* Poppins-SemiBoldItalic.ttf */,
+				C904E6D02AFF843F0025B9EF /* Poppins-Thin.ttf */,
+				C904E6D22AFF843F0025B9EF /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C904E6E72AFF845E0025B9EF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C904E6E82AFF84650025B9EF /* Font.swift */,
+				C904E6EE2AFF96980025B9EF /* GIFPlayer.swift */,
+				C904E7042AFFAEAC0025B9EF /* HealthKit.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C904E6EB2AFF923F0025B9EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C904E70D2AFFBBA70025B9EF /* Elements */,
+				C904E6EC2AFF924B0025B9EF /* WelcomeView.swift */,
+				C904E6F52AFFA1120025B9EF /* NameEnterView.swift */,
+				C904E70B2AFFBB420025B9EF /* LeaderboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C904E6FA2AFFA6050025B9EF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				C904E6FD2AFFA6FB0025B9EF /* Models */,
+				C904E6FB2AFFA6100025B9EF /* Api.swift */,
+				C904E7002AFFA7430025B9EF /* Callbacks.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		C904E6FD2AFFA6FB0025B9EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C904E6FE2AFFA7030025B9EF /* RegisterResponse.swift */,
+				C904E7022AFFAC140025B9EF /* MeResponse.swift */,
+				C904E7072AFFB3850025B9EF /* UpdateResponse.swift */,
+				C904E7092AFFB5610025B9EF /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C904E70D2AFFBBA70025B9EF /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C904E70E2AFFBBB10025B9EF /* UserBox.swift */,
+				C904E7102AFFC25A0025B9EF /* InviteCodeBox.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		C9EAAB882AFED99700F47A2E = {
+			isa = PBXGroup;
+			children = (
+				C9EAAB932AFED99700F47A2E /* Sportling */,
+				C9EAABA42AFED99900F47A2E /* SportlingTests */,
+				C9EAABAE2AFED99900F47A2E /* SportlingUITests */,
+				C9EAAB922AFED99700F47A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9EAAB922AFED99700F47A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAAB912AFED99700F47A2E /* Sportling.app */,
+				C9EAABA12AFED99900F47A2E /* SportlingTests.xctest */,
+				C9EAABAB2AFED99900F47A2E /* SportlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9EAAB932AFED99700F47A2E /* Sportling */ = {
+			isa = PBXGroup;
+			children = (
+				C904E7062AFFB0B40025B9EF /* Sportling.entitlements */,
+				C904E6FA2AFFA6050025B9EF /* Api */,
+				C904E6F32AFF99E80025B9EF /* karhu.glb */,
+				C904E6EB2AFF923F0025B9EF /* Views */,
+				C904E6EA2AFF848F0025B9EF /* Info.plist */,
+				C904E6E72AFF845E0025B9EF /* Util */,
+				C904E6BF2AFF84200025B9EF /* Resources */,
+				C9EAAB942AFED99700F47A2E /* SportlingApp.swift */,
+				C9EAAB962AFED99700F47A2E /* ContentView.swift */,
+				C9EAAB982AFED99900F47A2E /* Assets.xcassets */,
+				C9EAAB9A2AFED99900F47A2E /* Preview Content */,
+			);
+			path = Sportling;
+			sourceTree = "<group>";
+		};
+		C9EAAB9A2AFED99900F47A2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAAB9B2AFED99900F47A2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9EAABA42AFED99900F47A2E /* SportlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAABA52AFED99900F47A2E /* SportlingTests.swift */,
+			);
+			path = SportlingTests;
+			sourceTree = "<group>";
+		};
+		C9EAABAE2AFED99900F47A2E /* SportlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAABAF2AFED99900F47A2E /* SportlingUITests.swift */,
+				C9EAABB12AFED99900F47A2E /* SportlingUITestsLaunchTests.swift */,
+			);
+			path = SportlingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9EAAB902AFED99700F47A2E /* Sportling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EAABB52AFED99900F47A2E /* Build configuration list for PBXNativeTarget "Sportling" */;
+			buildPhases = (
+				C9EAAB8D2AFED99700F47A2E /* Sources */,
+				C9EAAB8E2AFED99700F47A2E /* Frameworks */,
+				C9EAAB8F2AFED99700F47A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sportling;
+			packageProductDependencies = (
+				C904E6F12AFF999A0025B9EF /* Model3DView */,
+				C904E6F82AFFA59E0025B9EF /* Alamofire */,
+			);
+			productName = Sportling;
+			productReference = C9EAAB912AFED99700F47A2E /* Sportling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9EAABA02AFED99900F47A2E /* SportlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EAABB82AFED99900F47A2E /* Build configuration list for PBXNativeTarget "SportlingTests" */;
+			buildPhases = (
+				C9EAAB9D2AFED99900F47A2E /* Sources */,
+				C9EAAB9E2AFED99900F47A2E /* Frameworks */,
+				C9EAAB9F2AFED99900F47A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9EAABA32AFED99900F47A2E /* PBXTargetDependency */,
+			);
+			name = SportlingTests;
+			productName = SportlingTests;
+			productReference = C9EAABA12AFED99900F47A2E /* SportlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9EAABAA2AFED99900F47A2E /* SportlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EAABBB2AFED99900F47A2E /* Build configuration list for PBXNativeTarget "SportlingUITests" */;
+			buildPhases = (
+				C9EAABA72AFED99900F47A2E /* Sources */,
+				C9EAABA82AFED99900F47A2E /* Frameworks */,
+				C9EAABA92AFED99900F47A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9EAABAD2AFED99900F47A2E /* PBXTargetDependency */,
+			);
+			name = SportlingUITests;
+			productName = SportlingUITests;
+			productReference = C9EAABAB2AFED99900F47A2E /* SportlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9EAAB892AFED99700F47A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C9EAAB902AFED99700F47A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C9EAABA02AFED99900F47A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C9EAAB902AFED99700F47A2E;
+					};
+					C9EAABAA2AFED99900F47A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C9EAAB902AFED99700F47A2E;
+					};
+				};
+			};
+			buildConfigurationList = C9EAAB8C2AFED99700F47A2E /* Build configuration list for PBXProject "Sportling" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9EAAB882AFED99700F47A2E;
+			packageReferences = (
+				C904E6F02AFF99990025B9EF /* XCRemoteSwiftPackageReference "Model3DView" */,
+				C904E6F72AFFA59E0025B9EF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C9EAAB922AFED99700F47A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9EAAB902AFED99700F47A2E /* Sportling */,
+				C9EAABA02AFED99900F47A2E /* SportlingTests */,
+				C9EAABAA2AFED99900F47A2E /* SportlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9EAAB8F2AFED99700F47A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904E6F42AFF9A9A0025B9EF /* karhu.glb in Resources */,
+				C904E6D92AFF843F0025B9EF /* Poppins-Black.ttf in Resources */,
+				C904E6E12AFF843F0025B9EF /* Poppins-SemiBoldItalic.ttf in Resources */,
+				C904E6DF2AFF843F0025B9EF /* Poppins-Medium.ttf in Resources */,
+				C904E6E32AFF843F0025B9EF /* Poppins-Thin.ttf in Resources */,
+				C904E6E42AFF843F0025B9EF /* Poppins-BoldItalic.ttf in Resources */,
+				C904E6E22AFF843F0025B9EF /* Poppins-BlackItalic.ttf in Resources */,
+				C904E6DE2AFF843F0025B9EF /* Poppins-LightItalic.ttf in Resources */,
+				C904E6D72AFF843F0025B9EF /* Poppins-ExtraLightItalic.ttf in Resources */,
+				C904E6DC2AFF843F0025B9EF /* Poppins-SemiBold.ttf in Resources */,
+				C904E6E62AFF843F0025B9EF /* Poppins-Regular.ttf in Resources */,
+				C904E6D42AFF843F0025B9EF /* Poppins-ExtraLight.ttf in Resources */,
+				C904E6DA2AFF843F0025B9EF /* OFL.txt in Resources */,
+				C904E6D82AFF843F0025B9EF /* Poppins-Italic.ttf in Resources */,
+				C9EAAB9C2AFED99900F47A2E /* Preview Assets.xcassets in Resources */,
+				C904E6E02AFF843F0025B9EF /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				C904E6DD2AFF843F0025B9EF /* Poppins-Light.ttf in Resources */,
+				C904E6DB2AFF843F0025B9EF /* Poppins-ExtraBold.ttf in Resources */,
+				C9EAAB992AFED99900F47A2E /* Assets.xcassets in Resources */,
+				C904E6E52AFF843F0025B9EF /* Poppins-ThinItalic.ttf in Resources */,
+				C904E6D52AFF843F0025B9EF /* Poppins-Bold.ttf in Resources */,
+				C904E6D62AFF843F0025B9EF /* Poppins-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAAB9F2AFED99900F47A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAABA92AFED99900F47A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9EAAB8D2AFED99700F47A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904E70A2AFFB5610025B9EF /* User.swift in Sources */,
+				C904E7112AFFC25A0025B9EF /* InviteCodeBox.swift in Sources */,
+				C9EAAB972AFED99700F47A2E /* ContentView.swift in Sources */,
+				C904E7082AFFB3850025B9EF /* UpdateResponse.swift in Sources */,
+				C9EAAB952AFED99700F47A2E /* SportlingApp.swift in Sources */,
+				C904E6F62AFFA1120025B9EF /* NameEnterView.swift in Sources */,
+				C904E6E92AFF84650025B9EF /* Font.swift in Sources */,
+				C904E6ED2AFF924B0025B9EF /* WelcomeView.swift in Sources */,
+				C904E7052AFFAEAC0025B9EF /* HealthKit.swift in Sources */,
+				C904E6FF2AFFA7030025B9EF /* RegisterResponse.swift in Sources */,
+				C904E6FC2AFFA6100025B9EF /* Api.swift in Sources */,
+				C904E70C2AFFBB420025B9EF /* LeaderboardView.swift in Sources */,
+				C904E70F2AFFBBB10025B9EF /* UserBox.swift in Sources */,
+				C904E6EF2AFF96980025B9EF /* GIFPlayer.swift in Sources */,
+				C904E7032AFFAC140025B9EF /* MeResponse.swift in Sources */,
+				C904E7012AFFA7430025B9EF /* Callbacks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAAB9D2AFED99900F47A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EAABA62AFED99900F47A2E /* SportlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAABA72AFED99900F47A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EAABB02AFED99900F47A2E /* SportlingUITests.swift in Sources */,
+				C9EAABB22AFED99900F47A2E /* SportlingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9EAABA32AFED99900F47A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9EAAB902AFED99700F47A2E /* Sportling */;
+			targetProxy = C9EAABA22AFED99900F47A2E /* PBXContainerItemProxy */;
+		};
+		C9EAABAD2AFED99900F47A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9EAAB902AFED99700F47A2E /* Sportling */;
+			targetProxy = C9EAABAC2AFED99900F47A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9EAABB32AFED99900F47A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9EAABB42AFED99900F47A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9EAABB62AFED99900F47A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sportling/Sportling.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sportling/Preview Content\"";
+				DEVELOPMENT_TEAM = R7R98T4924;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sportling/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BearRun;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health data is used to track physical activity, in order to calculate steps and sport.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.Sportling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9EAABB72AFED99900F47A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sportling/Sportling.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sportling/Preview Content\"";
+				DEVELOPMENT_TEAM = R7R98T4924;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sportling/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BearRun;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health data is used to track physical activity, in order to calculate steps and sport.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.Sportling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9EAABB92AFED99900F47A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7R98T4924;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.SportlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sportling";
+			};
+			name = Debug;
+		};
+		C9EAABBA2AFED99900F47A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7R98T4924;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.SportlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sportling";
+			};
+			name = Release;
+		};
+		C9EAABBC2AFED99900F47A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7R98T4924;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.SportlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportling;
+			};
+			name = Debug;
+		};
+		C9EAABBD2AFED99900F47A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7R98T4924;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.testausserveri.SportlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9EAAB8C2AFED99700F47A2E /* Build configuration list for PBXProject "Sportling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EAABB32AFED99900F47A2E /* Debug */,
+				C9EAABB42AFED99900F47A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EAABB52AFED99900F47A2E /* Build configuration list for PBXNativeTarget "Sportling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EAABB62AFED99900F47A2E /* Debug */,
+				C9EAABB72AFED99900F47A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EAABB82AFED99900F47A2E /* Build configuration list for PBXNativeTarget "SportlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EAABB92AFED99900F47A2E /* Debug */,
+				C9EAABBA2AFED99900F47A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EAABBB2AFED99900F47A2E /* Build configuration list for PBXNativeTarget "SportlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EAABBC2AFED99900F47A2E /* Debug */,
+				C9EAABBD2AFED99900F47A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C904E6F02AFF99990025B9EF /* XCRemoteSwiftPackageReference "Model3DView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/Model3DView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+		C904E6F72AFFA59E0025B9EF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C904E6F12AFF999A0025B9EF /* Model3DView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C904E6F02AFF99990025B9EF /* XCRemoteSwiftPackageReference "Model3DView" */;
+			productName = Model3DView;
+		};
+		C904E6F82AFFA59E0025B9EF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C904E6F72AFFA59E0025B9EF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C9EAAB892AFED99700F47A2E /* Project object */;
+}
