@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_USER=USERNAME
+      - DB_PASSWORD=PASSWORD
+      - DB_NAME=bearrun
+  db:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      - MARIADB_RANDOM_ROOT_PASSWORD=true
+      - MYSQL_USER=USERNAME
+      - MYSQL_PASSWORD=PASSWORD
+      - MYSQL_DATABASE=bearrun
+    volumes:
+      - db_data3:/var/lib/mysql
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+volumes:
+  db_data:
